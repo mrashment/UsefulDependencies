@@ -1,5 +1,16 @@
 # UsefulDependencies
 
+## Dagger
+
+    api 'com.google.dagger:dagger:2.x'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.x'
+
+##### Dagger.android
+
+    api 'com.google.dagger:dagger-android:2.x'
+    api 'com.google.dagger:dagger-android-support:2.x' // if you use the support libraries
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.x'
+
 ## Design
 
     implementation 'com.android.support:design:28.0.0'
