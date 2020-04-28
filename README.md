@@ -4,11 +4,7 @@
 
     api 'com.google.dagger:dagger:2.x'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.x'
-    
-[![Maven Central][mavenbadge-svg]][mavencentral]
-
-##### Dagger.android
-
+* dagger.android
     api 'com.google.dagger:dagger-android:2.x'
     api 'com.google.dagger:dagger-android-support:2.x' // if you use the support libraries
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.x'
