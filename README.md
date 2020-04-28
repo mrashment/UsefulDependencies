@@ -1,6 +1,7 @@
 # UsefulDependencies
 
 ## Dagger
+https://github.com/google/dagger
 
     api 'com.google.dagger:dagger:2.x'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.x'
