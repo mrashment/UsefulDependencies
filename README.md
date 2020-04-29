@@ -16,6 +16,16 @@ Dagger.android
 
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    
+## Lifecycle
+https://developer.android.com/jetpack/androidx/releases/lifecycle#java
+
+ViewModel
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+LiveData
+
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
 
 ## Retrofit 
 https://github.com/square/retrofit
