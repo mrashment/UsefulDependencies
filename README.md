@@ -34,6 +34,7 @@ https://github.com/square/retrofit
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     
 ## Room
+https://developer.android.com/jetpack/androidx/releases/room
     
     def room_version = "2.2.5"
 
