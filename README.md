@@ -14,7 +14,7 @@ Dagger.android
 
 ## Design
 
-    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     
 ## Lifecycle
