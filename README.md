@@ -32,6 +32,16 @@ https://github.com/square/retrofit
 
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    
+## Room
+    
+    def room_version = "2.2.5"
+
+    implementation "androidx.room:room-runtime:$room_version"   
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+RxJava support
+    
+    implementation "androidx.room:room-rxjava2:$room_version"
 
 ## RxJava, RxAndroid, RxBinding 
 
