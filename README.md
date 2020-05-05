@@ -3,13 +3,15 @@
 ## Dagger
 https://github.com/google/dagger
 
-    api 'com.google.dagger:dagger:2.x'
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.x'
-Dagger.android
+    def dagger_version = "2.27"
+    
+    implementation "com.google.dagger:dagger:$dagger_version"
+    annotationProcessor "com.google.dagger:dagger-compiler:$dagger_version"
+    
+    implementation "com.google.dagger:dagger-android:$dagger_version"
+    implementation "com.google.dagger:dagger-android-support:$dagger_version"
+    annotationProcessor "com.google.dagger:dagger-android-processor:$dagger_version"
 
-    api 'com.google.dagger:dagger-android:2.x'
-    api 'com.google.dagger:dagger-android-support:2.x' // if you use the support libraries
-    annotationProcessor 'com.google.dagger:dagger-android-processor:2.x' 
     
 
 ## Design
