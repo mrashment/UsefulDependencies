@@ -19,6 +19,18 @@ https://github.com/google/dagger
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     
+## Firebase
+
+    implementation 'com.google.firebase:firebase-core:17.4.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.firebase:firebase-database:19.3.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'com.google.firebase:firebase-analytics:17.4.0'
+    
+## Google
+
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    
 ## Lifecycle
 https://developer.android.com/jetpack/androidx/releases/lifecycle#java
 
