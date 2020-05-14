@@ -28,8 +28,13 @@ https://github.com/google/dagger
     implementation 'com.google.firebase:firebase-analytics:17.4.0'
     
 ## Google
+https://github.com/google/gson
 
     implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    
+## Gson
+
+    implementation 'com.google.code.gson:gson:2.8.6'
     
 ## Lifecycle
 https://developer.android.com/jetpack/androidx/releases/lifecycle#java
