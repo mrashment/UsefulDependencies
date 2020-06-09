@@ -27,6 +27,11 @@ https://github.com/google/dagger
     implementation 'com.google.firebase:firebase-storage:19.1.1'
     implementation 'com.google.firebase:firebase-analytics:17.4.0'
     
+## Glide
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    
 ## Google
 https://github.com/google/gson
 
