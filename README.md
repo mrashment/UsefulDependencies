@@ -1,5 +1,11 @@
 # UsefulDependencies
 
+## Coroutines
+https://github.com/Kotlin/kotlinx.coroutines
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.7'
+    
 ## Dagger
 https://github.com/google/dagger
 
