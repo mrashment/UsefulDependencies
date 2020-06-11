@@ -50,6 +50,11 @@ ViewModel
 LiveData
 
     implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    
+## Picasso
+https://github.com/square/picasso
+
+implementation 'com.squareup.picasso:picasso:2.71828'
 
 ## Retrofit 
 https://github.com/square/retrofit
