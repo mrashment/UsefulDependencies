@@ -34,16 +34,17 @@ https://github.com/google/dagger
     implementation 'com.google.firebase:firebase-analytics:17.4.0'
     
 ## Glide
+https://github.com/bumptech/glide
 
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     
 ## Google
-https://github.com/google/gson
 
     implementation 'com.google.android.gms:play-services-auth:18.0.0'
     
 ## Gson
+https://github.com/google/gson
 
     implementation 'com.google.code.gson:gson:2.8.6'
     
