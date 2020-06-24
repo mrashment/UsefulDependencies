@@ -65,9 +65,11 @@ implementation 'com.squareup.picasso:picasso:2.71828'
 
 ## Retrofit 
 https://github.com/square/retrofit
+https://github.com/square/retrofit/tree/master/retrofit-adapters/rxjava2
 
     implementation 'com.squareup.retrofit2:retrofit:2.5.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:latest.version'
     
 ## Room
 https://developer.android.com/jetpack/androidx/releases/room
