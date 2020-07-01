@@ -48,6 +48,9 @@ https://github.com/google/gson
 
     implementation 'com.google.code.gson:gson:2.8.6'
     
+## Koin
+https://insert-koin.io/
+
 ## Lifecycle
 https://developer.android.com/jetpack/androidx/releases/lifecycle#java
 
