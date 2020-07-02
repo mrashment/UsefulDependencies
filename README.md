@@ -61,10 +61,20 @@ LiveData
 
     implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
     
+## Paging
+
+    implementation "androidx.paging:paging-runtime:$paging_version" // For Kotlin use paging-runtime-ktx
+
+    // alternatively - without Android dependencies for testing
+    testImplementation "androidx.paging:paging-common:$paging_version" // For Kotlin use paging-common-ktx
+
+    // optional - RxJava support
+    implementation "androidx.paging:paging-rxjava2:$paging_version" // For Kotlin use paging-rxjava2-ktx
+
 ## Picasso
 https://github.com/square/picasso
 
-implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.squareup.picasso:picasso:2.71828'
 
 ## Retrofit 
 https://github.com/square/retrofit
