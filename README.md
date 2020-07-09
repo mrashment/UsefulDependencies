@@ -24,6 +24,7 @@ https://github.com/google/dagger
 
     implementation 'com.google.android.material:material:1.1.0'
 https://github.com/nostra13/Android-Universal-Image-Loader
+
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     
 ## Firebase
