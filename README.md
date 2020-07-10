@@ -49,7 +49,27 @@ https://github.com/bumptech/glide
 https://github.com/google/gson
 
     implementation 'com.google.code.gson:gson:2.8.6'
-    
+  
+## Hilt
+https://dagger.dev/hilt/gradle-setup
+
+dependencies {
+  implementation 'com.google.dagger:hilt-android:<VERSION>'
+  kapt 'com.google.dagger:hilt-android-compiler:<VERSION>'
+
+  // For instrumentation tests
+  androidTestImplementation  'com.google.dagger:hilt-android-testing:<VERSION>'
+  kaptAndroidTest 'com.google.dagger:hilt-android-compiler:<VERSION>'
+
+  // For local unit tests
+  testImplementation 'com.google.dagger:hilt-android-testing:<VERSION>'
+  kaptTest 'com.google.dagger:hilt-android-compiler:<VERSION>'
+}
+
+kapt {
+ correctErrorTypes true
+}
+
 ## Koin
 https://insert-koin.io/
 
