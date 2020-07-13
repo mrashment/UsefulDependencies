@@ -28,6 +28,7 @@ https://github.com/nostra13/Android-Universal-Image-Loader
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     
 ## Firebase
+https://firebase.google.com/docs/android/setup
 
     implementation 'com.google.firebase:firebase-core:17.4.0'
     implementation 'com.google.firebase:firebase-auth:19.3.1'
