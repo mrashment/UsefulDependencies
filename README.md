@@ -85,6 +85,34 @@ LiveData
 
     implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
     
+## Navigation
+https://developer.android.com/guide/navigation/navigation-getting-started
+
+  def nav_version = "2.3.1"
+
+Java language implementation
+
+    implementation "androidx.navigation:navigation-fragment:$nav_version"
+    implementation "androidx.navigation:navigation-ui:$nav_version"
+
+Kotlin
+
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+Feature module Support
+
+    implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
+
+Testing Navigation
+
+    androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+
+Jetpack Compose Integration
+
+    implementation "androidx.navigation:navigation-compose:1.0.0-alpha02"
+
+
 ## Paging
 
     implementation "androidx.paging:paging-runtime:$paging_version" // For Kotlin use paging-runtime-ktx
